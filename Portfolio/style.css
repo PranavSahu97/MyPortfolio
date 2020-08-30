@@ -509,7 +509,7 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: linear-gradient(60deg, #29323 0%, #485563 100%);
+    background-color: linear-gradient(60deg, #293233 0%, #485563 100%);
     opacity: .7;
 }
 
@@ -622,10 +622,12 @@ p{
 
 .footer-social-icons ul li a i fa{
     line-height: 50px;
+    animation: show 1s 1;
 }
 
 .footer-social-icons ul li a i iconify{
     line-height: 50px;
+    animation: show 1s 1;
 }
 
 .fa-linkedin{
@@ -637,6 +639,12 @@ p{
 }
 
 .iconify { color: red; }
+
+
+@keyframes show {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 
 
 /* Keyframes */
