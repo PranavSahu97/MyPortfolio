@@ -351,9 +351,16 @@ p{
 #languages .languages{
     flex-direction: column;
     text-align: center;
+    /* justify-content: center;
+    align-items: center; */
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
+}
+
+#languages .languages-header{
+    max-width: 500px;
+	margin: 0 auto;
 }
 
 #languages .language-bottom{
@@ -361,27 +368,36 @@ p{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 #languages .language{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+	justify-content: center;
     flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    margin: 10px 5%;
+    padding: 30px;
 }
 
 
 #languages .language .icon-grid{
     list-style: none;
 	padding: 0 0 50px 0;
-	margin: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 #languages .language .icon-grid li{
     width: 33%;
 	/* float: left; */
-	height: 100px;
-	text-align: center;
+	height: 100%;
+    text-align: center;
+    justify-content: center;
     /* border-top: 1px solid #ddd;  */
     list-style: none;
     text-align: center;
@@ -408,21 +424,26 @@ p{
 }
 
 #languages .language .icon.grid li a .icon{
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; 
     text-align: center;
     overflow: hidden;
     margin: 0 auto 10px;
-    font-size: 34px;
+    font-size: 34px; */
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+
 }
 
 #languages .language .icon.grid li a .iconify{
-    width: 40px;
-    height: 40px;
-    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    /* text-align: center;
     overflow: hidden;
     margin: 0 auto 10px;
-    font-size: 34px;
+    font-size: 34px; */
 } 
 
 @media screen and (max-width: 62.75em) {
@@ -803,7 +824,7 @@ p{
 @media only screen and (min-width: 768px){
     .cta{
         font-size: 2.5rem;
-        padding: 10px 60px;
+        padding: 20px 60px;
     }
 
     h1.section-title{
@@ -910,6 +931,14 @@ p{
         background-color: transparent;
     }
 
+    #header .nav-list ul li {
+		display: inline-block;
+    }
+    
+    #header .nav-list ul li a {
+		font-size: 1.8rem;
+	}
+
     #header .nav-list ul a:after{
         display: none;
     }
@@ -921,6 +950,7 @@ p{
     #header .nav-list ul li a {
         font-size: 1.8rem;
     }
+
 }
 
 /* end media query for desktop */
