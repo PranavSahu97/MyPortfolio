@@ -350,9 +350,9 @@ p{
 
 #languages .languages{
     flex-direction: column;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    /* text-align: center; */
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
@@ -367,6 +367,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* text-align: center; */
     flex-direction: column;
 }
 
@@ -386,9 +387,13 @@ p{
 #languages .language .icon-grid{
     list-style: none;
 	padding: 0 0 50px 0;
-    margin: 0;
+    margin: auto;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    /* text-align: center; */
+
+
 }
 
 #languages .language .icon-grid li{
@@ -396,12 +401,11 @@ p{
 	height: 100%;
     text-align: center;
     justify-content: center;
+    align-items: center;
     list-style: none;
-    text-align: center;
     display: inline-block;
     font-size: 50px;
     padding: 20px 20px;
-    transition: .5s;
 }
 
 
