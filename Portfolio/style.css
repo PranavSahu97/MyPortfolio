@@ -156,7 +156,7 @@ p{
     position: absolute;
     background-color: rgb(31, 30, 30);
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     left: 100%;
     top: 0;
     display: flex;
@@ -169,7 +169,7 @@ p{
 }
 
 #header .nav-list ul.active{
-    left: 0;
+    left: 0%;
 }
 
 #header .nav-list ul a{
@@ -417,11 +417,12 @@ p{
 }
 
 #languages .language .icon.grid li a .iconify{
-    width: 100%;
-    height: 100%;
-    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 10px;
     font-size: 34px;
-    transition: 0.5s;
 } 
 
 @media screen and (max-width: 62.75em) {
@@ -819,14 +820,15 @@ p{
 
     /* languages section */
 
-    /* #languages .service-bottom .service-item{
-        flex-basis: 45%;
+    #languages .language-bottom .language{
+        flex-basis: 100%;
         margin: 2.5%;
-    }  */
+        flex-direction: row;
+    }  
 
     /* #languages .language {
         flex-direction: row;
-    } */
+    }
 
 
 
