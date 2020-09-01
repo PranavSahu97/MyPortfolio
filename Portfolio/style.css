@@ -413,7 +413,7 @@ p{
 
 @media screen and (max-width: 62.75em) {
 	#languages .language .icon-grid li {
-		width: 50%;
+		width: 33%;
     }
 }
 
@@ -711,7 +711,7 @@ p{
 
     /* languages section */
 
-    #languages .language-bottom .language{
+    #languages .language-bottom{
         flex-basis: 100%;
         margin: 2.5%;
         flex-direction: row;
