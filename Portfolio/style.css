@@ -64,13 +64,14 @@ p{
 }
 
 .section-title-2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    justify-content: center;
 }
 
 .section-title-2 a{
@@ -423,6 +424,10 @@ p{
 
 #projects .projects-header{
     margin-bottom: 50px;
+}
+
+#projects .projects-header .check{
+    color:  #0000FF;
 }
 
 #projects .all-projects{
